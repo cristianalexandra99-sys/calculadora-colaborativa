@@ -30,9 +30,8 @@ print("Divisão: ", divide(10,2))
 
 def potencia(a,b):
     """Retorna a potência de dois números. """
-    a=1
-    for i in range(b):
-        a=a*b
-    return a^b
+    for i in range(b+1):
+        a=a*a
+    return a
 
 print("Potência: ", potencia(10,2))
