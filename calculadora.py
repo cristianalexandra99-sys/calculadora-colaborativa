@@ -1,4 +1,4 @@
-#calculadora.py
+# calculadora.py
 # Projeto colaborativo - GitHub Desktop
 # Autor: Cristiana e Tiago
 
