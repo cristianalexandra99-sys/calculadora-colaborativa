@@ -12,3 +12,17 @@ def subtrai(a,b):
 print("Calculadora colaborativa!")
 print("Soma: ", soma(5, 3))
 print("Substração: ", subtrai(10,4))
+
+def multiplica(a,b):
+    """Retorna o produto de dois números. """
+    return a*b
+
+def divide(a,b):
+    """Retorna a divisão de dois números, se possível. """
+    if b!=0:
+        return a/b
+    else:
+        return "Erro: Divisão por 0!"
+
+print("Multiplicação: ", multiplica(2, 6))
+print("Divisão: ", divide(10,2))
