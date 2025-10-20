@@ -26,3 +26,13 @@ def divide(a,b):
 
 print("Multiplicação: ", multiplica(2, 6))
 print("Divisão: ", divide(10,2))
+
+
+def potencia(a,b):
+    """Retorna a potência de dois números. """
+    a=1
+    for i in range(b):
+        a=a*b
+    return a^b
+
+print("Potência: ", potencia(10,2))
